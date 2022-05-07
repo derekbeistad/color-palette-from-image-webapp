@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/styles.css">
+
+    <title>Image Color Palette</title>
+</head>
+<body>
+<section>
+    <div class="container-fluid">
+        <h1 class="display-3 text-center">Create a Color Palette From Any Image!</h1>
+        <h4 class="text-center text-muted">Get the 10 most prevalent color hex codes from any image you upload.</h4>
+    </div>
+    <div class="container-fluid">
+        <div class="row upload-section">
+            <div class="col">
+                <form method="POST" enctype="multipart/form-data">
+                    <label class="form-label">Upload a Image</label>
+                    <div class="input-group">
+                        <input type="file" name="file" class="form-control" id="inputGroupFile04"
+                               aria-describedby="inputGroupFileAddon04" aria-label="Upload"  accept="image/*">
+                        <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Upload
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
